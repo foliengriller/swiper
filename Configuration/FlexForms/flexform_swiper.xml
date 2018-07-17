@@ -97,7 +97,7 @@
                             <!--</displayCond>-->
                             <config>
                                 <type>input</type>
-                                <eval>int,required</eval>
+                                <eval>int</eval>
                             </config>
                         </TCEforms>
                     </settings.heightPixel>
