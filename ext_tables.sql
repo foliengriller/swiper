@@ -29,7 +29,7 @@ CREATE TABLE tx_swiper_domain_model_slide (
   l10n_diffsource mediumblob,
 
 	image varchar(255) DEFAULT '' NOT NULL,
-	content text DEFAULT '' NOT NULL,
+	content text NOT NULL,
 
 	PRIMARY KEY (uid),
   KEY parent (pid),
